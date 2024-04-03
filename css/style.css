@@ -1,4 +1,31 @@
-.ZwartKleur{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+.ZwartKleur {
     background-color: black;
 }
 
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-button .btn {
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+#foto2 {
+    display: none;
+}
+
+@media (min-width: 1440px) {
+
+    #foto1 {
+        display: none;
+    }
+
+    #foto2 {
+        display: flex;
+    }
+}
