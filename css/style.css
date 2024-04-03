@@ -19,7 +19,11 @@
     display: none;
 }
 
-@media (min-width: 1440px) {
+#titel{
+    display: none;
+}
+
+@media (min-width: 768px) {
 
     #foto1 {
         display: none;
@@ -28,4 +32,12 @@
     #foto2 {
         display: flex;
     }
+
+    #titel{
+        display: block;
+    }
+
+    
+
+    
 }
