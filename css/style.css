@@ -3,3 +3,9 @@
     height: 10vh;
     text-align: center;
 }
+
+@media (min-width: 768px){
+    main{
+        background-image: src;
+    }
+}
