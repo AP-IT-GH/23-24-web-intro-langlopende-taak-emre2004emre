@@ -19,14 +19,17 @@
   <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-    
     <nav class="navbar navbar-dark fixed-top bg-dark navbar-expand-md">
 
         <div class="container-fluid">
 
-            <a href="#"><img src="assets/images/logo-nieuw_png-removebg-preview.png" alt="Logo" width="50" height="50"></a>
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-            <h1 class="text-white">Cyber Agent</h1>
+            <a href="#" id="logo"><img src="assets/images/logo-nieuw_png-removebg-preview.png" alt="Logo" width="50" height="50"></a>
+
+            <h1 class="text-white" id="titel">Cyber Agent</h1>
 
             <div class="nav-button">
                 <button class="btn btn-light" id="LoginBtn">Login</button>
@@ -34,14 +37,7 @@
 
         </div>
 
-        <div class="">
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span></button>
-
-        </div>
-
-        <div class="navbar-collapse collapsed" id="navbarSupportedContent">
+        <div class="navbar-collapse collapsec" id="navbarSupportedContent">
 
             <ul class="navbar-nav me-auto mb-2">
 
@@ -76,7 +72,19 @@
     </nav>
 
     <main>
-        <img src="assets/images/10.webp" alt="achtergrond">
+
+        <div class="carousel-inner">
+
+            <div class="carousel-inner active">
+                <img class="d-block w-100" src="assets/images/10.webp" alt="Achtergrond">
+            </div>
+
+            <div class="carousel-inner">
+                <img class="d-block w-100" src="assets/images/Producten gsm formaat.webp" alt="Achtergrond">
+            </div>
+
+        </div>
+
     </main>
 
 </body>
