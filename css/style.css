@@ -2,11 +2,24 @@
     display: none;
 }
 
+#foto2, #foto4, #foto6{
+    display: none;
+}
+
 
 @media (min-width: 768px) {
     #titel {
         display: flex;
     }
+
+    #foto2, #foto4, #foto6{
+        display: flex;
+    }
+
+    #foto1, #foto3, #foto5{
+        display: none;
+    }
+
 
 
 }
