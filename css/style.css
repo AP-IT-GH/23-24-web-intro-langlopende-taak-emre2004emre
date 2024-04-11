@@ -2,7 +2,7 @@
     display: none;
 }
 
-#foto2, #foto4, #foto6, #foto8, #foto10, #contact-foto2, #cloudsecurity2{
+#foto2, #foto4, #foto6, #foto8, #foto10, #contact-foto2, #cloudsecurity2, #netwerkbeveiliging2, #dataencryptie2, #endpointbescherming2, #IdentityEnAccessManagement2, #IncidentResponsEnForensischeAnalyse2{
     display: none;
 }
 
@@ -15,11 +15,11 @@
         display: flex;
     }
 
-    #foto2, #foto4, #foto6, #foto8, #foto10, #contact-foto2, #cloudsecurity2{
+    #foto2, #foto4, #foto6, #foto8, #foto10, #contact-foto2, #cloudsecurity2, #netwerkbeveiliging2, #dataencryptie2, #endpointbescherming2, #IdentityEnAccessManagement2, #IncidentResponsEnForensischeAnalyse2{
         display: flex;
     }
 
-    #foto1, #foto3, #foto5, #foto7, #foto9, #contact-foto1, #cloudsecurity1{
+    #foto1, #foto3, #foto5, #foto7, #foto9, #contact-foto1, #cloudsecurity1, #netwerkbeveiliging1, #dataencryptie1, #endpointbescherming1, #IdentityEnAccessManagement1, #IncidentResponsEnForensischeAnalyse1{
         display: none;
     }
 
