@@ -1,28 +1,12 @@
-#titel{
-    display: none;
+.navbar-logo {
+  width: 50px;
 }
 
-#foto2, #foto4, #foto6, #foto8, #foto10, #contact-foto2, #cloudsecurity2, #netwerkbeveiliging2, #dataencryptie2, #endpointbescherming2, #IdentityEnAccessManagement2, #IncidentResponsEnForensischeAnalyse2{
-    display: none;
-}
-
-.icon-wit{
-    color: white;
-}
-
-@media (min-width: 768px) {
-    #titel {
-        display: flex;
-    }
-
-    #foto2, #foto4, #foto6, #foto8, #foto10, #contact-foto2, #cloudsecurity2, #netwerkbeveiliging2, #dataencryptie2, #endpointbescherming2, #IdentityEnAccessManagement2, #IncidentResponsEnForensischeAnalyse2{
-        display: flex;
-    }
-
-    #foto1, #foto3, #foto5, #foto7, #foto9, #contact-foto1, #cloudsecurity1, #netwerkbeveiliging1, #dataencryptie1, #endpointbescherming1, #IdentityEnAccessManagement1, #IncidentResponsEnForensischeAnalyse1{
-        display: none;
-    }
-
-
-
+.achtergrondhome {
+  background-image: url(/assets/images/home.png);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  margin-top: 4.7rem;
 }
