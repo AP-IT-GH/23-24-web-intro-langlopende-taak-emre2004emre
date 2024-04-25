@@ -9,3 +9,11 @@
 .foto {
   width: 25vw;
 }
+
+span {
+  color: red;
+}
+
+.space {
+  padding-top: 3rem;
+}
