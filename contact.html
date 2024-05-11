@@ -18,6 +18,8 @@
   <link rel="stylesheet" href="css/reset.css">
   <link href="css/style.css" rel="stylesheet">
 
+  <script src="./js/mapScript.js" defer></script>
+
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 </head>
@@ -37,6 +39,10 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
 
           <li class="nav-item">
             <a class="nav-link" href="index.html">Producten</a>
@@ -194,22 +200,12 @@
 
           <h2 class="text-center">Onze locatie</h2>
 
-          <div id="map" class="maps"></div>
-          <script>
-            // Initialiseer de kaart
-            var map = L.map('map').setView([51.2277, 4.4316], 15); // Coördinaten van Antwerpen als startpunt en zoomniveau 15
+          
+          <section id="map"  class="row">
+            <div id="apMap"></div>
+          </section>
 
-            // Voeg een basiskaartlaag toe (bijv. OpenStreetMap)
-            L.tileLayer('https://{s}.tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png', {
-                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-            }).addTo(map);
-
-            // Voeg een marker toe aan de locatie Ellermanstraat 33, 2060 Antwerpen
-            var marker = L.marker([51.2269, 4.4159]).addTo(map);
-            marker.bindPopup("<b>Ellermanstraat 33, 2060 Antwerpen</b>").openPopup();
-          </script>
-
-      </fieldset>
+        </fieldset>
 
       </aside>
 
@@ -221,7 +217,7 @@
   <footer class="bg-body-tertiary text-center">
 
     <div class="text-center p-3">
-      © 2024 Copyright, Inc
+      © 2024 / G_1SNB_H_D1@S2
     </div>
     
   </footer>

@@ -19,6 +19,7 @@
   <link href="css/style.css" rel="stylesheet">
 
   <script src="https://www.gstatic.com/charts/loader.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
 </head>
 <body>
   
@@ -36,6 +37,10 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
 
           <li class="nav-item">
             <a class="nav-link" href="#product">Producten</a>
@@ -292,6 +297,32 @@
 
           <h3 class="col-12">Dashboard</h3>
 
+          <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+
+          <script>
+            const xValues = ["België", "France", "Spain", "USA", "Argentina"];
+            const yValues = [55, 49, 44, 24, 15];
+            const barColors = ["red", "green","blue","orange","brown"];
+            
+            new Chart("myChart", {
+              type: "bar",
+              data: {
+                labels: xValues,
+                datasets: [{
+                  backgroundColor: barColors,
+                  data: yValues
+                }]
+              },
+              options: {
+                legend: {display: false},
+                title: {
+                  display: true,
+                  text: "wereldwijde productie 2024"
+                }
+              }
+            });
+          </script>
+
           <h4>Onstuitbare Groei: Een Blik op Onze Opwaartse Reis</h4>
 
           <p>Welkom op het dashboard waar vooruitgang zichtbaar wordt. Hier geven we u een venster naar de dynamische groei van Cyber Agent</p>
@@ -309,7 +340,7 @@
   <footer class="bg-body-tertiary text-center text-lg-start">
 
     <div class="text-center p-3">
-      © 2024 Copyright, Inc
+      © 2024 / G_1SNB_H_D1@S2
     </div>
     
   </footer>
