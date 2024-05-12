@@ -17,6 +17,11 @@
   <!-- eigen geschreven css voor jouw html-bestand -->
   <link rel="stylesheet" href="css/reset.css">
   <link href="css/style.css" rel="stylesheet">
+
+  <script src="./js/endpointscript.js" defer></script>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 </head>
 <body>
     
@@ -45,6 +50,26 @@
 
           <li class="nav-item">
             <a class="nav-link" href="index.html">Onze Partners</a>
+          </li>
+
+          <li class="nav-item dropdown">
+
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Topics</a>
+
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="endpointbescherming.html">Endpoint Bescherming</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="cloudsecurity.html">Cloud Security</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="netwerkbeveiliging.html">Netwerkbeveiliging</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="iam.html">Identity en Access Management</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="dataencryptie.html">Data Encryptie</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="irfa.html">Incident Respons en Forensische Analyse</a></li>
+            </ul>
+
           </li>
 
           <li class="nav-item dropdown">
@@ -211,6 +236,11 @@
           </tbody>
 
       </table>
+
+      <section id="map"  class="row">
+        <h3 class="text-white text-center">Productie</h3>
+        <div id="apMap"></div>
+      </section>
 
     </section>
     <!--Tabel-->
